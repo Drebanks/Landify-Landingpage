@@ -1,0 +1,33 @@
+.nav {
+    margin-right: auto;
+    /* padding: 10px 100px 30px 100px; */
+}
+
+
+.nav ul {
+    /* margin: 0;
+    padding: 0; */
+
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    
+}
+.nav ul a{
+    text-decoration: none;
+    color: #18191F;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width: 1082px){
+    .hidden{
+        display: none;
+    }
+    .nav ul{
+        display: inline-block;
+    }
+    
+}
+
+

@@ -1,0 +1,16 @@
+.header {
+  width: 100%;
+ 
+  
+}
+
+.header_container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 30px;
+}
+
+

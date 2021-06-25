@@ -1,0 +1,66 @@
+.mancontainer{
+    background-color: #2EC5CE;
+    display: flex;
+    padding: 0 100px 0 100px;
+
+}
+
+.man{
+    width:60%;
+    padding-top: 50px;
+    
+    
+}
+.man >  h3{
+    font-size: 48px;
+    font-family: 'Open Sans', sans-serif;
+}
+.man p{
+    line-height: 32px;
+}
+
+.log {
+    display: flex;
+    gap: 10px;
+   
+}
+.app > h6{
+    color: black;
+    margin-bottom: 10px;
+}
+
+.manimage{
+    /* padding-right: 50px; */
+    flex-basis: 50%;
+    margin: auto;
+
+    
+}
+
+/* mediaq query */
+@media screen  and (max-width: 1000px){
+
+
+    .manimage{
+        display: none;
+    }
+    .man{
+        text-align:center;
+        margin: auto;
+        /* font-size: 20px; */
+
+    }
+    .mancontainer{
+        flex-direction: column;
+    }
+    .man>h3{
+        display:block;
+        font-size: 20px;
+    }
+}
+@media  screen and (max-width: 700px) {
+    .man{
+        text-align: block;
+        margin-right: auto;
+    }
+}

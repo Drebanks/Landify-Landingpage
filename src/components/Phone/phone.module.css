@@ -1,0 +1,39 @@
+.phoneflex {
+  background-color: white;
+  display: flex;
+
+  gap: 3rem;
+  padding: 10px 100px 30px 100px;
+}
+
+.fone {
+  background: hsl(269, 100%, 95%);
+  border-radius: 8px;
+
+  width: 540px;
+  height: 540px;
+  padding: 30px 55px 0 50px;
+}
+.fone > img {
+  width: 400px;
+
+  height: 510px;
+
+  justify-content: center;
+
+  padding:30px 50px 0 50px;
+}
+.headlines {
+  width: 50%;
+  height: 50%;
+  margin-top: 200px;
+  font-size: 20px;
+  /* font-family: 'Open Sans', sans-serif;  */
+  font-family: "Inter", sans-serif;
+  line-height: 32px;
+}
+@media screen and (max-width: 1100px){
+  .fone{
+    display: none;
+  }
+}
