@@ -85,8 +85,11 @@ font-size: 30px;
     width: 300px;
     height: 100px;
     font-size:16px;
-    font-weight: 400;
+    font-weight: 300;
     margin-bottom: 10px;
+}
+.ent h3{
+    font-size: 20px;
 }
 .allow{
     text-align:justify;
