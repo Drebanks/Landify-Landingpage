@@ -19,14 +19,18 @@
     color: #18191F;
     font-family: 'Open Sans', sans-serif;
 }
+.fab{
+    display: none;
+   
+}
 
 @media screen and (max-width: 1082px){
-    .hidden{
+    /* .hidden{
         display: none;
     }
     .nav ul{
         display: inline-block;
-    }
+    } */
     
 }
 @media screen and (max-width: 480px){
@@ -35,6 +39,12 @@
     }
     .nav ul{
         display: inline-block;
+    }
+    .fab{
+        
+        display: block;
+        float: right;
+
     }
     
 }

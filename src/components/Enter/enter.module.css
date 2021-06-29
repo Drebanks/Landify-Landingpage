@@ -94,6 +94,9 @@ font-size: 30px;
     margin-top: -55px;
     
 }
+.allow p{
+    font-size: 15px;
+}
 .bub > img{
     width: 100%;
     margin-top: -5px;

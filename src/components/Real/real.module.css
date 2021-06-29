@@ -220,18 +220,23 @@
     padding: 9px 23px 26px 18px;
   }
   .item_1{
-    width: 350px;
+    width: 330px;
     text-align: justify;
+    
   }
   .item_2{
-    width:300px;
+    width:270px;
     text-align: justify;
     margin-top: 15px;
   }
   .item_3{
-    width: 200px;
+    width: 180px;
     text-align: justify;
-    margin-left: 160px;
+    margin-left: 100px;
+
+  }
+  .par p{
+    font-size: 13px;
   }
   .content{
     font-size: 30px;

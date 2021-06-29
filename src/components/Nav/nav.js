@@ -1,9 +1,16 @@
 import classes from "./nav.module.css";
 import Logo4 from "../../assets/Vectordrop.svg";
+import ReactDom from "react-dom";
+import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faBars} from "@fortawesome/free-solid-svg-icons";
+
+
+
+const FaBars =  () => < FontAwesomeIcon icon = {faBars} />
 const Navigation = () => {
   return (
     <nav className={classes.nav}>
-      <ul>
+           <ul>
         <li>
           <a href="#" className={classes.hidden}> About </a>
         </li>
@@ -22,11 +29,17 @@ const Navigation = () => {
         <li>
           <a href="#"> More <span> <img src={Logo4} alt="drop"></img> </span> </a>
         </li>
-      </ul>
-      
-      
+      </ul>  
+      <div className={classes.fab}>
+        <FaBars />
+
+      </div>
     </nav>
+    
+
+
   );
 };
 
 export default Navigation;
+

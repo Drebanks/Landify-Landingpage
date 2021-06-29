@@ -75,6 +75,7 @@ font-weight: 350;
 @media screen and (max-width: 480px){
     .word{
         display:flex;
+        flex-direction: column;
     gap: 50px;
     padding: 30px 15px 30px 34px;
     

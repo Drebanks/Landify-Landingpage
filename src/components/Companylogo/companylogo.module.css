@@ -7,10 +7,13 @@
 
 .complog{
     
-  width: 70%;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  /* width: */
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  /* justify-self: center; */
+  /* grid-template-columns: repeat(6, 1fr); */
  
   margin-top: 50px;
 }
@@ -25,13 +28,17 @@
 }
 @media screen and (max-width: 480px){
     .complog{
+        
         width: 70%;
         margin: auto;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         
-        gap: 5px;
+        gap: 3px;
        
+    }
+    .complog > img{
+        width: 40%;
     }
 
 }
