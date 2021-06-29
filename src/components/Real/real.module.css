@@ -223,7 +223,7 @@
     width: 20%;
   }
   .item_1{
-    width: 330px;
+    width: 250px;
     text-align: justify;
     
   }
@@ -235,7 +235,7 @@
   .item_3{
     width: 230px;
     text-align: justify;
-    margin-left: 50px;
+    margin-left: 35px;
 
   }
   .par p{
@@ -247,8 +247,8 @@
     font-size: 20px;
     
     position: relative;
-    top: 76px;
-    left: 67px;
+    top: 70px;
+    left: 60px;
    
     
   }
