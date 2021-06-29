@@ -178,7 +178,7 @@
   color: #18191f;
   font-weight: 700;
   font-size: 40px;
-  font-family: 'Open Sans', sans-serif;
+  
   position: relative;
   top: 93px;
   left: 91px;
@@ -219,6 +219,9 @@
   .overall{
     padding: 9px 23px 26px 18px;
   }
+  .sixsix > img{
+    width: 20%;
+  }
   .item_1{
     width: 330px;
     text-align: justify;
@@ -238,8 +241,16 @@
   .par p{
     font-size: 13px;
   }
-  .content{
-    font-size: 30px;
+  .content {
+    
+    font-weight: 400;
+    font-size: 20px;
+    
+    position: relative;
+    top: 76px;
+    left: 67px;
+   
+    
   }
   .content{
     padding-bottom:30px;
