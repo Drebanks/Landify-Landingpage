@@ -52,3 +52,32 @@
         display: none;
     }
 }
+@media screen and (max-width: 480px){
+    .banner{
+        height: 50vh;
+    }
+    .phone{
+        display: none;
+    }
+    .content h1{
+        /* color: black; */
+        font-weight: 800;
+        font-size: 25px;
+        margin: 28px;
+        margin-top: -20px;
+        
+        
+    
+    
+    }
+    .btn{
+        margin: 28px;
+        background-color: #8C30F5;
+        color: white;
+        padding: 8px 8px;
+        text-decoration: none;
+        border-radius: 5px;
+        
+        
+    }
+}

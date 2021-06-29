@@ -10,12 +10,14 @@ const Companylogo = () => {
     return (
         <div className={classes.complogo}>
             <div className={classes.complog}>
-            <img src={airbnb} alt="air" />
-            <img src={hubspot} alt="hub" />
-            <img src={google} alt="google" />
-            <img src={microsoft} alt="micro" />
-            <img src={walmart} alt="win" />
-            <img src={fedex} alt="fed" />
+           <a href="#"> <img src={airbnb} alt="air" /></a>
+           <a href="#"> <img src={hubspot} alt="hub" /></a>
+           <a href="#"><img src={google} alt="google" /></a>
+           <a href="#"><img src={microsoft} alt="micro" /></a>
+           <a href="#"><img src={walmart} alt="win" /></a>
+           <a href="#"><img src={fedex} alt="fed" /></a>
+
+            
 
 
             </div>

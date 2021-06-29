@@ -6,20 +6,35 @@
 }
 
 .complog{
-    /* background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%); */
+    
   width: 70%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  justify-content: center;
-  gap: 3rem;
+ 
   margin-top: 50px;
 }
 @media screen and (max-width: 735px){
     .complog{
-        width: 90%;
-        grid-template-columns: repeat(3, 1fr);
+        width: 50%;
+        /* width: 90%; */
+        /* grid-template-columns: repeat(3, 1fr); */
         /* display: flex; */
         /* flex-wrap: wrap; */
     }
+}
+@media screen and (max-width: 480px){
+    .complog{
+        width: 70%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+        gap: 5px;
+       
+    }
+
+}
+@media screen and (max-width: 1000px){
+
 }

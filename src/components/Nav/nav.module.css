@@ -29,5 +29,14 @@
     }
     
 }
+@media screen and (max-width: 480px){
+    .hidden{
+        display: none;
+    }
+    .nav ul{
+        display: inline-block;
+    }
+    
+}
 
 

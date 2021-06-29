@@ -13,4 +13,13 @@
   padding: 30px;
 }
 
-
+@media screen and (max-width: 480px){
+  .logoicon>img{
+    width: 50%;
+    gap: 5px;
+    
+  }
+  .icons{
+    display: none;
+  }
+}

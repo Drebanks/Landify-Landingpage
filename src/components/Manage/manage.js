@@ -14,21 +14,12 @@ const Manage = () => {
                 <div className={classes.app}>
                     <h6>Get the App</h6>
                     <div className={classes.log}>
-                    <a href ="#">
-                <img src={Logo1} alt="google" />
-                </a>
-                <a href="#2">
-                <img src={Logo2} alt="app" />
-                </a>
-                        {/* <div className={classes.onelogo}>
+                        <a href ="#">
                         <img src={Logo1} alt="google" />
-                        </div>
-                        <div className={classes.twologo}>
-                        <img src={Logo2} alt="app" />
-                        </div> */}
-
-                    
-                    
+                     </a>
+                     <a href="#2">
+                         <img src={Logo2} alt="app" />
+                     </a>
                     </div>
                 </div>
 

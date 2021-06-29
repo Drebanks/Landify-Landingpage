@@ -12,14 +12,16 @@ const Header = () => {
     <header className={classes.header}>
       <div className={classes.header_container}>
       
-        <img src={Logo} alt="Logo" />
+        <a href="#"><img src={Logo} alt="Logo" /></a>
         <Navigation />
-              <a href ="#">
+              <div className={classes.icons}>
+              <a href ="#" className={classes.logoicon}>
                 <img src={Logo1} alt="google" />
                 </a>
-                <a href="#2">
+                <a href="#2" className={classes.logoicon}>
                 <img src={Logo2} alt="app" />
               </a>
+              </div>
       </div>
     </header>
   );

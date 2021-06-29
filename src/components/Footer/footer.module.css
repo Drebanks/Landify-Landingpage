@@ -2,15 +2,12 @@
     background-color: #0B0D17;
     display: flex;
     padding: 50px 150px 50px 100px;
-    
-    
-    
-    
+  
 }
 .footcontain{
     width:90%;
-    margin: auto;
-    margin-right: 100px;
+    /* margin: auto;
+    margin-right: 100px; */
 }
 .leftdetails{
     margin-right: auto;
@@ -46,8 +43,39 @@ h6{
     color: white;
 }
 
+@media screen and (max-width: 480px){
+    .footercontainer{
+     
+        padding: 21px 50px 28px 19px;
+      
+    }
+    .footcontain{
+        width:50%;
+       
+    }
+    .footnav ul{
+        
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }   
+    .footerimg{
+        margin-top: 90px;
+    
+}
+}
+
 @media screen and (max-width: 1100px){
     .footercontainer{
+        padding: 10px 50px 10px 50px;
+    }
+    .footnav ul{
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+    }
+
+    /* .footercontainer{
         display: flex;
         flex-direction: column;
     }
@@ -59,7 +87,7 @@ h6{
     .footnav ul{
         flex-direction: column;
         gap: 5px;
-    }
+    } */
 
 }
 

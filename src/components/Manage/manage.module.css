@@ -7,7 +7,7 @@
 
 .man{
     width:60%;
-    padding-top: 50px;
+    /* padding-top: 50px; */
     
     
 }
@@ -39,14 +39,25 @@
 
 /* mediaq query */
 @media screen  and (max-width: 1000px){
+    .mancontainer{
+        background-color: #2EC5CE;
+        display: flex;
+        flex-direction: row;
+        padding: 0 0px 0 50px;
+    
+    }
 
 
-    .manimage{
-        display: none;
+    .manimage >img{
+        /* display: flex; */
+        width: 10%;
+        height:40%;
     }
     .man{
-        text-align:center;
-        margin: auto;
+        /* width:60%;
+    padding-top: 50px; */
+        /* text-align:center;
+        margin: auto; */
         /* font-size: 20px; */
 
     }
@@ -58,9 +69,35 @@
         font-size: 20px;
     }
 }
-@media  screen and (max-width: 700px) {
+@media  screen and (max-width: 480px) {
+    .mancontainer{
+               display: flex;
+               flex-direction: column;
+        padding: 30px 29px 30px 23px;
+
+        
+    
+    }
     .man{
-        text-align: block;
-        margin-right: auto;
+        width: 100%;
+        text-align: justify;
+    }
+    .man h3{
+       font-size: 30px;
+    }
+    .man > p{
+        line-height: 22px;
+    }
+    .log >img{
+        width: 30%;
+    }
+    .manimage > img{
+        display: none;
+
+    }
+    .app > h6{
+        color: black;
+        margin-bottom: 10px;
+        font-size: 20px;
     }
 }
