@@ -1,13 +1,10 @@
 .nav {
     margin-right: auto;
-    /* padding: 10px 100px 30px 100px; */
+    
 }
 
 
 .nav ul {
-    /* margin: 0;
-    padding: 0; */
-
     list-style: none;
     display: flex;
     gap: 2rem;
@@ -19,19 +16,37 @@
     color: #18191F;
     font-family: 'Open Sans', sans-serif;
 }
-.fab{
+/* .fab{
     display: none;
    
-}
+} */
 
-@media screen and (max-width: 1082px){
-    /* .hidden{
+.togglebutton{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.togglebutton .bar{
+    height: 3px;
+    width: 100px;
+    background-color: red;
+    border-radius: 10px;
+}
+@media screen and (max-width: 970px){
+    .hidden{
         display: none;
     }
-    .nav ul{
+    /* .nav ul{
         display: inline-block;
     } */
-    
+    .togglebutton{
+        display: flex;
+    }
 }
 @media screen and (max-width: 480px){
     .hidden{

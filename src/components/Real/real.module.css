@@ -100,10 +100,10 @@
   margin-left: 10px;
   font-family: 'Open Sans', sans-serif;
 } */
-.overall {
+/* .overall {
   background: #D5FAFC;
   width: 100%;
-  /* margin-top: 20rem */
+  
   padding: 50px 100px 50px 100px;
 }
 
@@ -130,18 +130,14 @@
   
   font-style: normal;
   font-weight: 800;
-  /* font-size: 48px; */
-  /* line-height: 64px; */
-  /* or 133% */
+  
 
   font-feature-settings: 'salt'on, 'liga'off;
 
-  /* Text / Gray 900 */
+  
 
   color: #18191F;
-  /* position: relative; */
-  /* top: 300px;
-  right: 200px; */
+ 
 }
 
 .item_1 {
@@ -150,7 +146,7 @@
   grid-column: 2/-1;
   align-self: center;
   text-align: justify;
-  /* background-color: blanchedalmond; */
+  
   
 
 }
@@ -159,11 +155,11 @@
   grid-row: 2/4;
   margin-top: 50px;
   text-align: justify;
-  /* background-col/or: red; */
+  
 }
 
 .item_3 {
-  /* background-color: rebeccapurple; */
+  
   align-self: end;
   grid-row: 3/-1;
   text-align: justify;
@@ -198,21 +194,103 @@
   margin-top: 4px;
   margin-left: 10px;
   font-family: 'Open Sans', sans-serif;
-} 
-@media screen and (max-width: 1100px) {
-  .container{
+}  */
+.overall{
+  display: flex;
+  gap: 25px;
+  background-color: #d5fafc;
+  padding: 50px 100px 50px 100px;
+  
+}
+
+.sixsix > img{
+  margin-top: 30px;
+  position: absolute;
+}
+
+.realtext {
+  color: #18191f;
+  font-weight: 700;
+  font-size: 40px;
+    position: relative;
+  top: 93px;
+  left: 91px;
+ 
+  
+}
+.realtext > h6{
+  margin-top: -5px;
+  color: #18191F;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+
+}
+.hub{
+  background-color: white;
+  width: 300px;
+  height: 260px;
+  padding: 12px;
+  margin-top: 120px;
+  margin-left: 130px;
+  text-align: justify;
+}
+.airbnbtext{
+  background-color: white;
+  margin-bottom: 30px;
+  width: 350px;
+    height: 186px;
+    padding: 12px;
+    text-align: justify;
+}
+.left{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 125px;
+  margin-left: 90px;
+}
+.bookcontent{
+  background-color: white;
+  width: 250px;
+    height: 180px;
+    padding: 16px;
+  /* margin-top: 30px; */
+}
+.realcontainer{
+  gap: 10px;
+}
+.set > img{
+  width: 2%;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 987px) {
+  .overall{
+    
+    padding: 50px 80px 50px 80px;
+    
+  }
+  .left{
+    margin-left: 40px;
+  }
+  
+  
+
+}
+@media screen and (max-width: 839px){
+  .overall{
     display: flex;
-    flex-direction: column;
-    /* margin-top: 50px; */
+  flex-direction: column;
   }
-  .content{
-    padding-bottom: 30px;
+  .left{
+    margin-top: -5px;
   }
-
-  .item_1{
-    margin-top: 50px;
-  }
-
 }
 
 @media screen and (max-width: 480px){

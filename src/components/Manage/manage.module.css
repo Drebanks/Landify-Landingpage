@@ -7,7 +7,7 @@
 
 .man{
     width:60%;
-    /* padding-top: 50px; */
+    
     
     
 }
@@ -38,11 +38,15 @@
 }
 
 /* mediaq query */
+
+@media screen  and (max-width: 987px){
+    .man > h3{
+        margin-top: 40px;
+    }
+}
 @media screen  and (max-width: 1000px){
     .mancontainer{
-        background-color: #2EC5CE;
-        display: flex;
-        flex-direction: row;
+        
         padding: 0 0px 0 50px;
     
     }

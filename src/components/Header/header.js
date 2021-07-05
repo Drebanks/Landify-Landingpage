@@ -1,6 +1,6 @@
 import Logo from "../../assets/Dark.svg";
-import Logo1 from "../../assets/Google Play Badge.svg";
-import Logo2 from "../../assets/App Store Badge.svg";
+import Log1 from "../../assets/Google Play Badge.svg";
+import Log2 from "../../assets/App Store Badge.svg";
 import Navigation from "../Nav/nav";
 import classes from "./header.module.css";
 
@@ -16,10 +16,10 @@ const Header = () => {
         <Navigation />
               <div className={classes.icons}>
               <a href ="#" className={classes.logoicon}>
-                <img src={Logo1} alt="google" />
+                <img src={Log1} alt="google" />
                 </a>
                 <a href="#2" className={classes.logoicon}>
-                <img src={Logo2} alt="app" />
+                <img src={Log2} alt="app" />
               </a>
               </div>
       </div>

@@ -44,13 +44,30 @@
     /* align-items: center; */
     justify-content: space-between;
 }
-@media screen and (max-width: 735px){
+@media screen and (max-width: 839px){
+    .content h1{
+        font-size: 42px;
+    }
+
+    .btn{
+        margin: 20px;
+       
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 4px;
+    }
+
+}
+@media screen and (max-width: 987px){
     .banner{
-        height: 50vh;
+        height: 100vh;
     }
     .phone{
-        display: none;
+        width: 30%;
+    height: 30%;
     }
+    
+
 }
 @media screen and (max-width: 480px){
     .banner{

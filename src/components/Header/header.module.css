@@ -12,6 +12,20 @@
   gap: 2rem;
   padding: 30px;
 }
+.icons{
+  display: flex;
+  gap: 10px;
+}
+@media screen and (max-width: 987px){
+  .header_container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 30px;
+  }
+}
 
 @media screen and (max-width: 480px){
   .logoicon>img{
