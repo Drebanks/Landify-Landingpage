@@ -300,22 +300,37 @@
   .sixsix > img{
     width: 20%;
   }
-  .item_1{
-    width: 250px;
+  .hub{
+    width: 300px;
+  height: 193px;
+  padding: 12px;
+  margin-left: 50px;
+  margin-top: 82px;
+  }
+  .airbnbtext{
+    width: 300px;
+    height: 186px;
+    padding: 12px;
     text-align: justify;
+  }
+  .bookcontent{
+    width: 250px;
+    height: 180px;
+    padding: 16px;
+  }
+  .realtext {
+    color: #18191f;
+    font-weight: 700;
+    font-size: 25px;
+      position: relative;
+    top: 71px;
+    left: 62px;
+    width: -1px;
+    
+   
     
   }
-  .item_2{
-    width:270px;
-    text-align: justify;
-    margin-top: 15px;
-  }
-  .item_3{
-    width: 230px;
-    text-align: justify;
-    margin-left: 35px;
 
-  }
   .par p{
     font-size: 13px;
   }
